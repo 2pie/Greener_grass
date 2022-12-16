@@ -110,6 +110,7 @@ Body and globals
         font-weight: lighter;
         color: var(--heading1);
         margin-left: 8%;
+        text-transform: capitalize;
     }
 
     h2 {
@@ -117,7 +118,9 @@ Body and globals
         font-size: 18pt;
         font-weight: lighter;
         color: var(--heading2);
-        margin-left: 8%; 
+        margin-left: 8%;
+        margin-right: 10%;
+        line-height: 30pt; 
     }
 
 
@@ -187,6 +190,7 @@ Navigation bar
         align-items: center;
         padding: 10px 30px;
         background-color: var(--navigationBackground);
+        box-shadow: 0px 5px 5px #1b1c1c4d;
         
     }
     

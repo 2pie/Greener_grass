@@ -168,6 +168,7 @@ Navigation bar
         align-items: center;
         padding: 10px 30px;
         background-color: var(--navigationBackground);
+        box-shadow: 0px 5px 5px #1b1c1c4d;
         
     }
     
