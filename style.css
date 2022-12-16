@@ -191,9 +191,11 @@ Navigation bar
     }
     
     .logo {
-        color: rgb(247, 240, 231);
+        color: var(--heading1);
         font-weight: 600;
-        font-size: 16px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: "Corbel";
     
     }
     
@@ -230,8 +232,6 @@ Navigation bar
         color: var(--passivetext);
         /* background-color: aqua;     */
         margin: auto;
-        
-        
       
     }
     
@@ -258,12 +258,34 @@ Navigation bar
 
     @media screen and (max-width: 820px) {
         nav {
-        height: 5vh;            
+        height: 5vh;  
+ 
         }
+        nav .nav-links ul li {
+            font-size: 1.2em;     
+        }
+       
     }
 
+    @media screen and (max-width: 480px) {
+        nav {
+        height: 5vh;  
+        padding-left: 15px;          
+        }
+    
+    nav .nav-links ul li {
+        font-size: 16px;     
+    }
+       
+    }
+
+  
 
 
+     
+    /*--------------------------------------------------
+     body body
+    ----------------------- */
     
     .square {
         background-color:var(--darkBackground);
